@@ -56,7 +56,7 @@ To create a new guide and serve it locally, where `MY-NEW-GUIDE` is the name
 of your new repository:
 
 ```shell
-$ git clone git@github.com:bcgov-c/EAO-Internal-Guidance.git
+$ git clone https://github.com/bcgov/jekyll-barebones.git
 $ cd MY-NEW-GUIDE
 $ ./go serve
 ```
@@ -83,7 +83,7 @@ $ ./go serve --watch
 
 --watch will (usually) automatically regenerate files.
 If the website is not updating you may have to wait several minutes.
-If the site is still not updating, restart the server and allow Jekyll to regenerate files. 
+If the site is still not updating, restart the server and allow Jekyll to regenerate files.
 
 #### Editing the sidebar
 
