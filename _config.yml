@@ -16,10 +16,8 @@ incremental: false
 sass:
   style: :compressed
 
-asset_root: /guides-template
-
 # This script is used to fix the missing promise library bug that happens in IE
-scripts: guides-template/assets/js/es6-promise-auto-min.js
+scripts: assets/js/es6-promise-auto-min.js
 
 # Author/Organization info to be displayed in the templates
 author:
@@ -65,7 +63,7 @@ defaults:
 - scope:
     path: ""
   values:
-    layout: "guides_style_18f_default"
+    layout: "default"
 
 # Configuration for jekyll_pages_api_search plugin gem.
 jekyll_pages_api_search:

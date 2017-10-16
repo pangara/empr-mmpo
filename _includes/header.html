@@ -1,0 +1,67 @@
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+
+
+
+  <!-- Title, Twitter, and OpenGraph data
+================================================== -->
+
+  <meta name="twitter:site" content="@18F">
+  <meta name="twitter:creator" content="@18F">
+  <meta property="og:type" content="website" />
+
+  {% if site.title %}
+    <meta property="og:site_name" content="{{ site.title | xml_escape }}" />
+  {% endif %}
+
+  {% if site.url %}
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+  {% endif %}
+
+  <!-- title, description, and image may change per-page, per-post -->
+  {% if page.title %}
+    <title>{{ page.title }} - {{ site.name }}</title>
+    <meta property="og:title" content="{{ page.title | xml_escape }} - {{ site.name }}" />
+  {% elsif site.title %}
+    <title>{{ site.title }} - {{ site.name }}</title>
+    <meta property="og:title" content="{{ site.title | xml_escape }} - {{ site.name }}" />
+  {% endif %}
+
+  {% if page.description %}
+    <meta name="description" content="{{ page.description | xml_escape }}">
+    <meta property="og:description" content="{{ page.description | xml_escape }}" />
+  {% elsif site.description %}
+    <meta name="description" content="{{ site.description | xml_escape }}">
+    <meta property="og:description" content="{{ site.description | xml_escape }}" />
+  {% endif %}
+
+  <!-- use large summary card for posts with images, normal summary otherwise -->
+  {% if page.image %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+  {% else %}
+    <meta name="twitter:card" content="summary">
+    <meta property="og:image" content="https://18f.gsa.gov/assets/images/18F-Logo-L.png" />
+  {% endif %}
+
+  <!-- If any of the file paths after guides_style_18f_asset_root change, the old ones need to stay in place. See https://github.com/18F/pages-server/issues/55 for more information. -->
+  <link rel="shortcut icon" type="image/ico" href="/assets/favicons/eao-favicon.ico" />
+  <link rel="icon" type="image/png" href="/assets/favicons/eao-favicon.png" />
+  <link rel="apple-touch-icon-precomposed" href="/assets/favicons/eao-center-57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/favicons/eao-center-72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/favicons/eao-center-114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/favicons/eao-center-144.png"/>
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicons/eao-center-192.png" />
+  <link href='/assets/css/google-fonts.css' rel='stylesheet' type='text/css' />
+  <link rel="stylesheet" href="/assets/css/styles.css" type='text/css' />{% for style in site.styles %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/{{ style }}" type='text/css' />{% endfor %}{% for style in page.styles %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/{{ style }}" type='text/css' />{% endfor %}
+  <!--[if lt IE 9]>
+    <script src="/assets/js/html5shiv.js"></script>
+    <script src="/assets/js/respond.js"></script>
+  <![endif]-->
+</head>
