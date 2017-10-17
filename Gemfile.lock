@@ -7,6 +7,12 @@ GEM
     go_script (0.1.9)
       bundler (~> 1.10)
       safe_yaml (~> 1.0)
+    guides_style_18f (1.0.4)
+      jekyll
+      jekyll_pages_api
+      jekyll_pages_api_search
+      rouge
+      sass
     htmlentities (4.3.4)
     jekyll (3.1.6)
       colorator (~> 0.1)
@@ -47,6 +53,7 @@ PLATFORMS
 
 DEPENDENCIES
   go_script
+  guides_style_18f
   jekyll
   jekyll_pages_api_search
   redcarpet

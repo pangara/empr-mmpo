@@ -32,6 +32,7 @@ check_ruby_version '2.2.4'
 command_group :dev, 'Development commands'
 
 def_command :update_nav, 'Update the \'navigation:\' data in _config.yml' do
+  require 'guides_style_18f'
   GuidesStyle18F.update_navigation_configuration Dir.pwd
 end
 

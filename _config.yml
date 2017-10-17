@@ -33,7 +33,7 @@ expand_nav: false
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
-- text: <strong>Heading</strong>
+- text: Navigation Title
   internal: true
 - text: Subheading
   url: Subheading/
