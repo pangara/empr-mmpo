@@ -1,4 +1,4 @@
-## Environmental Assessment Office Internal Guidance
+## Jekyll Barebones
 
 This is a skeleton repo containing the
 [CFPB/DOCter](https://github.com/CFPB/DOCter)-based
@@ -27,7 +27,7 @@ Type in:
 
 ```
 
-git clone https://github.com/bcgov-c/EAO-Internal-Guidance.git
+git clone https://github.com/bcgov/jekyll-barebones.git
 
 ```
 
@@ -38,7 +38,7 @@ Now type in:
 
 ```
 
-cd EAO-Internal-Guidance
+cd jekyll-barebones
 
 ```
 
