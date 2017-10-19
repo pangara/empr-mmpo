@@ -32,7 +32,7 @@ expand_nav: false
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
-- text: MMPO Process
+- text: Navigation Title
   internal: true
 - text: About
   url: About/
@@ -60,6 +60,22 @@ navigation:
   - text: Regulatory Requirements for Mines in BC
     url: Regulatory%20Requirements%20for%20Mines%20in%20BC/
     internal: true
+    children:
+    - text: BC Environmental Assessment
+      url: BC%20Environmental%20Assessment/
+      internal: true
+    - text: Canadian Environmental Assessment
+      url: Canadian%20Environmental%20Assessment/
+      internal: true
+    - text: Environmental Management Act
+      url: Environmental%20Management%20Act/
+      internal: true
+    - text: Mineral Tenure Act and Coal Act
+      url: Mineral%20Tenure%20Act%20and%20Coal%20Act/
+      internal: true
+    - text: Mines Act
+      url: Mines%20Act/
+      internal: true
 - text: Overview of The Coordinated Authorizations Process
   url: Overview%20of%20The%20Coordinated%20Authorizations%20Process/
   internal: true
@@ -67,6 +83,22 @@ navigation:
   - text: The Value of Coordinated Authorizations
     url: The%20Value%20of%20Coordinated%20Authorizations/
     internal: true
+    children:
+    - text: Concurrent Approval Regulation
+      url: Concurrent%20Approval%20Regulation/
+      internal: true
+    - text: Guidance
+      url: Guidance/
+      internal: true
+    - text: Phases of the Coordinated authorizations Process
+      url: Phases%20of%20the%20Coordinated%20authorizations%20Process/
+      internal: true
+    - text: Sequential Permitting
+      url: Sequential%20Permitting/
+      internal: true
+    - text: Synchronous Permitting
+      url: Synchronous%20Permitting/
+      internal: true
 - text: Pre-Application Stage
   url: Pre-Application%20Stage/
   internal: true
@@ -74,9 +106,50 @@ navigation:
   - text: Project Initiation
     url: Project%20Initiation/
     internal: true
+    children:
+    - text: Early Engagement With Proponent
+      url: Early%20Engagement%20With%20Proponent/
+      internal: true
+    - text: Early Engagement and Consultation With First Nations
+      url: Early%20Engagement%20and%20Consultation%20With%20First%20Nations/
+      internal: true
+    - text: Land Use Planning
+      url: Land%20Use%20Planning/
+      internal: true
+    - text: Mine Review Advisory Committees
+      url: Mine%20Review%20Advisory%20Committees/
+      internal: true
+    - text: Strategic Agreements With First Nations
+      url: Strategic%20Agreements%20With%20First%20Nations/
+      internal: true
   - text: Project Planning
     url: Project%20Planning/
     internal: true
+    children:
+    - text: Baseline Schedule
+      url: Baseline%20Schedule/
+      internal: true
+    - text: Change Management
+      url: Change%20Management/
+      internal: true
+    - text: Draft Authorizations
+      url: Draft%20Authorizations/
+      internal: true
+    - text: Information Management
+      url: Information%20Management/
+      internal: true
+    - text: Issue Management
+      url: Issue%20Management/
+      internal: true
+    - text: Project Charter
+      url: Project%20Charter/
+      internal: true
+    - text: Resource Management
+      url: Resource%20Management/
+      internal: true
+    - text: Risk Management
+      url: Risk%20Management/
+      internal: true
 - text: Reporting and Decisions Stage
   url: Reporting%20and%20Decisions%20Stage/
   internal: true
@@ -84,6 +157,16 @@ navigation:
   - text: Project Closeout
     url: Project%20Closeout/
     internal: true
+    children:
+    - text: First Nations Consultation Report
+      url: First%20Nations%20Consultation%20Report/
+      internal: true
+    - text: Lessons Learned Summary Report
+      url: Lessons%20Learned%20Summary%20Report/
+      internal: true
+    - text: Mine Review Committee Report
+      url: Mine%20Review%20Committee%20Report/
+      internal: true
 - text: Screening and Review Stage
   url: Screening%20and%20Review%20Stage/
   internal: true
@@ -91,9 +174,41 @@ navigation:
   - text: Project Control
     url: Project%20Control/
     internal: true
+    children:
+    - text: Action Tracker
+      url: Action%20Tracker/
+      internal: true
+    - text: Change Tracking
+      url: Change%20Tracking/
+      internal: true
+    - text: Issue Tracking
+      url: Issue%20Tracking/
+      internal: true
+    - text: Lessons Learned Log
+      url: Lessons%20Learned%20Log/
+      internal: true
+    - text: Risk Tracking
+      url: Risk%20Tracking/
+      internal: true
+    - text: Tracking Schedule
+      url: Tracking%20Schedule/
+      internal: true
   - text: Project Execution
     url: Project%20Execution/
     internal: true
+    children:
+    - text: First Nations Consultation and Accommodation
+      url: First%20Nations%20Consultation%20and%20Accommodation/
+      internal: true
+    - text: Meetings
+      url: Meetings/
+      internal: true
+    - text: Public Review and Comment
+      url: Public%20Review%20and%20Comment/
+      internal: true
+    - text: Status Reports
+      url: Status%20Reports/
+      internal: true
 
 repos:
 - name:  empr-mmpo
