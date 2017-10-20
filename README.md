@@ -1,4 +1,4 @@
-## Environmental Assessment Office Internal Guidance
+## Major Mine Permitting Office Internal Guidance
 
 This is a skeleton repo containing the
 [CFPB/DOCter](https://github.com/CFPB/DOCter)-based
