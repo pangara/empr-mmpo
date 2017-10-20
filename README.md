@@ -1,4 +1,4 @@
-## Jekyll Barebones
+## Environmental Assessment Office Internal Guidance
 
 This is a skeleton repo containing the
 [CFPB/DOCter](https://github.com/CFPB/DOCter)-based
@@ -25,9 +25,9 @@ In the directory, right-click and click on Git Bash Here.
 
 Type in:
 
-```
+```shell
 
-git clone https://github.com/bcgov/jekyll-barebones.git
+git clone https://github.com/bcgov/empr-mmpo
 
 ```
 
@@ -36,23 +36,20 @@ This user must be allowed to pull from this repository.
 
 Now type in:
 
-```
-
-cd jekyll-barebones
-
+```shell
+cd empr-mmpo
 ```
 
 You are now in the project directory.
 
 Type in:
 
-```
+```shell
 gem install bundler
 
 bundler install
 
 ./go serve
-
 ```
 
 The server should be running.
@@ -137,7 +134,7 @@ The string in the first () will correspond with the path to where the .pdf file 
 
 Everything after the first () will be text that will trail the hyperlink.
 
-### Public domain
+### Public domain - 18f
 
 This project is in the worldwide [public domain](LICENSE.md). As stated in [CONTRIBUTING](CONTRIBUTING.md):
 
