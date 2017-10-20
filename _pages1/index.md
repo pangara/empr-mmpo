@@ -1,6 +1,6 @@
 ---
 permalink: /
 title: Title
-navtitle: Navigation Title
+navtitle: MMPO Process
 ---
 ### content required
